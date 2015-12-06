@@ -1,0 +1,1 @@
+var app=angular.module("formValid",[]);app.controller("formController",["$scope",function(e){e.submit=function(){e.message="Welcome "+e.user.firstname+" "+e.user.lastname}}]);
